@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+@font-face {
+    font-family: "magnolia";
+    src: url("fonts/MagnoliaLight.ttf");
+}
+
+
+body {
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.1)),
+         url('images/succulents-img/orlova-maria-x3Z_YxnUh54-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    letter-spacing: 0.2rem;
+    text-align: center;
+} 
+
+/* body > header > h2:nth-child(1) {
+    color: #ffffff;
+} */
+
+.title h1 {
+   font-family: 'magnolia';
+   text-transform: capitalize;
+   font-weight: bold;
+   font-size: 7.7rem;
+   color: #ffffff;
+   text-shadow: 3px 1px 2px black;
+}
+
+.title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    padding: 0 150px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.container h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    padding: 20px 0;
+}
+
+.container .col-sm img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+
+footer {
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 10px;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width: 800px) {
+    .title h1 {
+        font-size: 4.5rem;
+    }
+
+    .title h2 {
+        font-size: 1.2rem;
+        line-height: 20px;
+        padding: 10px 30px;
+    }
+
+    .container h3 {
+        font-size: 2.2rem;
+        margin: 10px 0;
+        padding: 0;
+    }
+}
+
+/* animations */
+.animated {
+    animation-duration: 2s;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+._fadeInDown {
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+._fadeInUp {
+    animation-name: fadeInUp;
+}
