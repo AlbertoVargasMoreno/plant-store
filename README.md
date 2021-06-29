@@ -5,7 +5,7 @@ Get inspired by pictures of succulent plants from photographers around the world
 - Used bootstrap tools & own styles.
 - Implemented responsive template.
 
-👉🏻 [Demo](https://yaninatrekhleb.github.io/succulent-gallery/)
+👉🏻 [Demo](https://albertovargasmoreno.github.io/plant-store/)
 
 ![Demo](images/succulent-demo.gif)
 
@@ -38,12 +38,13 @@ Minimal menu,
 - Font [Magnolia Light](https://www.1001freefonts.com/es/magnolia.font) added
 
 
-![Demo](./images/MotoG4.png)
+![Demo](./images/MotoG4.png | width=80)
 
  question: 
- [] agregar fotos de nochebuenas
- [] fotos de plantas
- https://duckduckgo.com/?q=sizing+images+avoid+distortion+css&t=ffab&ia=web
- https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
- [] seccion de servicios
+
+ * [] agregar fotos de nochebuenas
+ * [] fotos de plantas
+ * https://duckduckgo.com/?q=sizing+images+avoid+distortion+css&t=ffab&ia=web
+ * https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
+ * [] seccion de servicios
 
