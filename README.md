@@ -37,8 +37,7 @@ Minimal menu,
 - [Icons](./images/logo/) getted from [fontawesome](https://fontawesome.com)
 - Font [Magnolia Light](https://www.1001freefonts.com/es/magnolia.font) added
 
-
-![Demo](./images/MotoG4.png | width=80)
+<img src="images/MotoG4.png" alt="mobile" style="height:600px;">
 
  question: 
 
@@ -49,3 +48,12 @@ Minimal menu,
     * https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
 
  * [] seccion de servicios
+
+
+---
+
+after updating and editing my menu.css file, and pushing to github, I can not see the expected outcome, the local repository works fine, but online it is the same as the previous commit :thinking:
+
+is there any way to fix that, or is just a matter of time, and wait to reload?, we will see...
+
+yeah, it was just a matter of cleaning the cache
