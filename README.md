@@ -44,7 +44,8 @@ Minimal menu,
 
  * [] agregar fotos de nochebuenas
  * [] fotos de plantas
- * https://duckduckgo.com/?q=sizing+images+avoid+distortion+css&t=ffab&ia=web
- * https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
- * [] seccion de servicios
 
+    * https://duckduckgo.com/?q=sizing+images+avoid+distortion+css&t=ffab&ia=web
+    * https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
+
+ * [] seccion de servicios
